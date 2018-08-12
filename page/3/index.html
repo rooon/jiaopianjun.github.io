@@ -170,19 +170,19 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-浏览器本地存储" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-前端性能优化" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/06/11/浏览器本地存储/">浏览器本地存储</a>
+      <a class="article-title" href="/2018/06/11/前端性能优化/">前端性能优化</a>
     </h1>
   
 
         
-        <a href="/2018/06/11/浏览器本地存储/" class="archive-article-date">
+        <a href="/2018/06/11/前端性能优化/" class="archive-article-date">
   	<time datetime="2018-06-11T10:02:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-06-11</time>
 </a>
         
@@ -190,15 +190,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>浏览器本地存储</strong></p>
+        <p><strong>如何进行网站性能优化</strong></p>
 <ul>
-<li>在较高版本的浏览器中，js提供了sessionStorage和globalStorage。在HTML5中提供了localStorage来取代globalStorage</li>
-<li>html5中的Web Storage包括了两种存储方式：sessionStorage和localStorage</li>
-<li>sessionStorage用于本地存储一个会话（session）中的数据，这些数据只有在同一个会话中的页面才能访问并且当会话结束后数据也随之销毁。因此sessionStorage不是一种持久化的本地存储，仅仅是会话级别的存储</li>
-<li>而localStorage用于持久化的本地存储，除非主动删除数据，否则数据是永远不会过期的</li>
+<li>content方面<ul>
+<li>减少HTTP请求：合并文件、CSS精灵、inline Image</li>
+<li>减少DNS查询：DNS查询完成之前浏览器不能从这个主机下载任何任何文件。方法：DNS缓存、将资源分布到恰当数量的主机名，平衡并行下载和DNS查询</li>
+<li>避免重定向：多余的中间访问</li>
+</ul>
+</li>
 </ul>
         
-          <a class="article-more-a" href="/2018/06/11/浏览器本地存储/#more">全文，请点击 >></a>
+          <a class="article-more-a" href="/2018/06/11/前端性能优化/#more">全文，请点击 >></a>
         
       
 
@@ -233,7 +235,95 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2018/06/11/浏览器本地存储/">more >></a>
+          <a class="article-more-a" href="/2018/06/11/前端性能优化/">more >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+        
+  
+    <article id="post-Vue基础知识" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/06/11/Vue基础知识/">Vue基础知识</a>
+    </h1>
+  
+
+        
+        <a href="/2018/06/11/Vue基础知识/" class="archive-article-date">
+  	<time datetime="2018-06-11T10:02:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-06-11</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h6 id="1-如何构建一个Vue项目"><a href="#1-如何构建一个Vue项目" class="headerlink" title="1.如何构建一个Vue项目"></a>1.如何构建一个Vue项目</h6><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="number">1</span>.首先安装<span class="keyword">node</span>  <span class="title">npm</span> install <span class="keyword">node</span></div><div class="line"><span class="title">2</span>.安装vue脚手架  vue-cli    npm install -g vue-cli</div><div class="line"><span class="number">3</span>.新建vue项目  vue init webpack newblog</div><div class="line"><span class="number">4</span>.进入项目  cd newblog   npm install  下载依赖模块</div><div class="line"><span class="number">5</span>.npm run dev 运行项目</div><div class="line"><span class="number">6</span>.npm run build  打包项目</div></pre></td></tr></table></figure>
+        
+          <a class="article-more-a" href="/2018/06/11/Vue基础知识/#more">全文，请点击 >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">vue</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/Coding/" class="article-tag-list-link color2">Coding</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/06/11/Vue基础知识/">more >></a>
         </p>
       
 
@@ -960,99 +1050,6 @@ xhtml  必须有闭合标签，必须字母为小写，必须要有根元素
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2018/06/09/HTML/">more >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-        
-  
-    <article id="post-HTTP" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/06/07/HTTP/">Http基础知识</a>
-    </h1>
-  
-
-        
-        <a href="/2018/06/07/HTTP/" class="archive-article-date">
-  	<time datetime="2018-06-07T10:22:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-06-07</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><strong>http状态码有那些？分别代表是什么意思？</strong></p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">简单版</div><div class="line">   [</div><div class="line">       100  Continue   继续，一般在发送post请求时，已发送了http header之后服务端将返回此信息，表示确认，之后发送具体参数信息</div><div class="line">       200  OK         正常返回信息</div><div class="line">       201  Created    请求成功并且服务器创建了新的资源</div><div class="line">       202  Accepted   服务器已接受请求，但尚未处理</div><div class="line">       301  Moved Permanently  请求的网页已永久移动到新位置。</div><div class="line">       302 Found       临时性重定向。</div><div class="line">       303 See Other   临时性重定向，且总是使用 <span class="builtin-name">GET</span> 请求新的 URI。</div><div class="line">       304  <span class="keyword">Not</span> Modified 自从上次请求后，请求的网页未修改过。</div><div class="line"></div><div class="line">       400 Bad Request  服务器无法理解请求的格式，客户端不应当尝试再次使用相同的内容发起请求。</div><div class="line">       401 Unauthorized 请求未授权。</div><div class="line">       403 Forbidden   禁止访问。</div><div class="line">       404 <span class="keyword">Not</span> Found   找不到如何与 URI 相匹配的资源。</div><div class="line"></div><div class="line">       500 Internal<span class="built_in"> Server </span><span class="builtin-name">Error</span>  最常见的服务器端错误。</div><div class="line">       503<span class="built_in"> Service </span>Unavailable 服务器端暂时无法处理请求（可能是过载或维护）。</div><div class="line">   ]</div></pre></td></tr></table></figure>
-        
-          <a class="article-more-a" href="/2018/06/07/HTTP/#more">全文，请点击 >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面试</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">http</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Coding/" class="article-tag-list-link color2">Coding</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/06/07/HTTP/">more >></a>
         </p>
       
 
